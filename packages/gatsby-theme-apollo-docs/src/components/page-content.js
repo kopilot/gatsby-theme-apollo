@@ -7,7 +7,7 @@ import useMount from 'react-use/lib/useMount';
 import {HEADER_HEIGHT} from '../utils';
 import {IconGithub} from '@apollo/space-kit/icons/IconGithub';
 import {IconStar} from '@apollo/space-kit/icons/IconStar';
-import {PageNav, breakpoints, colors} from 'gatsby-theme-apollo-core';
+import {PageNav, breakpoints, colors} from '@kopilot/gatsby-theme-apollo-core';
 import {ReactComponent as SpectrumLogo} from '../assets/spectrum.svg';
 import {withPrefix} from 'gatsby';
 

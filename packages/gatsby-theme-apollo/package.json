@@ -1,13 +1,14 @@
 {
-  "name": "gatsby-theme-apollo",
-  "version": "3.0.4",
+  "name": "@kopilot/gatsby-theme-apollo",
+
+  "version": "3.1.0",
   "main": "index.js",
   "description": "Sets up your Gatsby website for use with Apollo",
   "author": "Trevor Blades <blades@apollographql.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apollographql/gatsby-theme-apollo.git",
+    "url": "https://https://github.com/kopilot/gatsby-theme-apollo.git",
     "directory": "packages/gatsby-theme-apollo"
   },
   "keywords": [

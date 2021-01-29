@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-theme-apollo-core",
-  "version": "3.0.23",
+  "name": "@kopilot/gatsby-theme-apollo-core",
+  "version": "3.1.0",
   "main": "index.js",
   "description": "A theme for bootstrapping Gatsby websites at Apollo",
   "author": "Trevor Blades <blades@apollographql.com>",

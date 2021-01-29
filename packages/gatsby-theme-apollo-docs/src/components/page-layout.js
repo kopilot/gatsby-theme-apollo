@@ -18,7 +18,7 @@ import {
   breakpoints,
   colors,
   useResponsiveSidebar
-} from 'gatsby-theme-apollo-core';
+} from '@kopilot/gatsby-theme-apollo-core';
 import {Helmet} from 'react-helmet';
 import {IconLayoutModule} from '@apollo/space-kit/icons/IconLayoutModule';
 import {Link, graphql, navigate, useStaticQuery} from 'gatsby';

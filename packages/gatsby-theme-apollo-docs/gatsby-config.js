@@ -1,6 +1,6 @@
 const path = require('path');
 const remarkTypescript = require('remark-typescript');
-const {colors} = require('gatsby-theme-apollo-core/src/utils/colors');
+const {colors} = require('@kopilot/gatsby-theme-apollo-core/src/utils/colors');
 const {HEADER_HEIGHT} = require('./src/utils');
 
 module.exports = ({
@@ -115,7 +115,7 @@ module.exports = ({
   ];
 
   const plugins = [
-    'gatsby-theme-apollo-core',
+    '@kopilot/gatsby-theme-apollo-core',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -140,7 +140,6 @@ module.exports = ({
         ]
       }
     },
-    'gatsby-plugin-printer',
     ...Object.entries(versions).map(([name, branch]) => ({
       resolve: 'gatsby-source-git',
       options: {
